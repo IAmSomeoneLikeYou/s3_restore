@@ -3,8 +3,8 @@ restore_after_delete工具说明：
 
 
 安装与编译：
-    如果是ubuntu 22.04，可以直接下载./target/release/restore_after_delete
-    如果是其他平台，请使用rust进行编译，编译方法 
+如果是ubuntu 22.04，可以直接下载./target/release/restore_after_delete
+如果是其他平台，请使用rust进行编译，编译方法 
         i. 安装rust，执行curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh 
         ii. git clone https://github.com/IAmSomeoneLikeYou/restore_after_delete.git 
         iii. cd restore_after_delete && cargo build --release 
